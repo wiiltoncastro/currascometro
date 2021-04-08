@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Churrascometro</title>
+</head>
+<body>
+    <div id="fundo">
+        <div id="container">
+
+            <h1>Churrascometro</h1>
+            <div><img class="imgs1" src="imagem/adulto.png" alt=""><input id="adulto" type="number" name="adultos" placeholder="Adultos"></div>
+            <div><img class="imgs1" src="imagem/juventude.png" alt=""><input id="crianca" type="number" name="criancas" placeholder="Crianças"></div>
+            <div><img class="imgs1" src="imagem/relogio.png" alt=""><input id="duracao" type="number" name="duracao" placeholder="Horas de Duração"></div>
+            <button id="botao" onmouseover="onMouseOver()" onmouseout="onMouseOut()" onclick="calcular()">Calcular</button>
+        </div>
+
+        <div id="container2">
+            <div><img id="img01" class="imgs2" src="imagem/silhueta-de-fatia-de-carne.png" alt=""><p class="respostas" id="resposta1"></p></div>
+            <div><img id="img02" class="imgs2" src="imagem/litro-de-cerveja.png" alt=""><p class="respostas"  id="resposta2"></p></div>
+            <div><img id="img03" class="imgs2" src="imagem/refrigerante.png" alt=""><p class="respostas"  id="resposta3"></p></div>
+        </div>
+        <script src="script.js"></script>
+    </div>   
+</body>
+</html>
